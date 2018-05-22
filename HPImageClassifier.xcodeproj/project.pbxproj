@@ -103,7 +103,6 @@
 		90E0C91E20B3DA3B00F6567E /* HPImageClassifier */ = {
 			isa = PBXGroup;
 			children = (
-				90E0C95520B403EB00F6567E /* image.jpg */,
 				90E0C95120B3F53A00F6567E /* AppleOrangeClassifier.mlmodel */,
 				90E0C91F20B3DA3B00F6567E /* AppDelegate.swift */,
 				90E0C94F20B3EDBE00F6567E /* FruitDetector.swift */,
@@ -112,6 +111,7 @@
 				90E0C92620B3DA4A00F6567E /* Assets.xcassets */,
 				90E0C92820B3DA4A00F6567E /* LaunchScreen.storyboard */,
 				90E0C92B20B3DA4A00F6567E /* Info.plist */,
+				90E0C95720B432D700F6567E /* Images */,
 			);
 			path = HPImageClassifier;
 			sourceTree = "<group>";
@@ -132,6 +132,14 @@
 				90E0C94120B3DA4A00F6567E /* Info.plist */,
 			);
 			path = HPImageClassifierUITests;
+			sourceTree = "<group>";
+		};
+		90E0C95720B432D700F6567E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				90E0C95520B403EB00F6567E /* image.jpg */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
