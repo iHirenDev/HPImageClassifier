@@ -14,6 +14,9 @@
 		90E0C92A20B3DA4A00F6567E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90E0C92820B3DA4A00F6567E /* LaunchScreen.storyboard */; };
 		90E0C93520B3DA4A00F6567E /* HPImageClassifierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E0C93420B3DA4A00F6567E /* HPImageClassifierTests.swift */; };
 		90E0C94020B3DA4A00F6567E /* HPImageClassifierUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E0C93F20B3DA4A00F6567E /* HPImageClassifierUITests.swift */; };
+		90E0C95020B3EDBE00F6567E /* FruitDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E0C94F20B3EDBE00F6567E /* FruitDetector.swift */; };
+		90E0C95220B3F53A00F6567E /* AppleOrangeClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 90E0C95120B3F53A00F6567E /* AppleOrangeClassifier.mlmodel */; };
+		90E0C95620B403EB00F6567E /* image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90E0C95520B403EB00F6567E /* image.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		90E0C93B20B3DA4A00F6567E /* HPImageClassifierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HPImageClassifierUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		90E0C93F20B3DA4A00F6567E /* HPImageClassifierUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HPImageClassifierUITests.swift; sourceTree = "<group>"; };
 		90E0C94120B3DA4A00F6567E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90E0C94F20B3EDBE00F6567E /* FruitDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitDetector.swift; sourceTree = "<group>"; };
+		90E0C95120B3F53A00F6567E /* AppleOrangeClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = AppleOrangeClassifier.mlmodel; sourceTree = "<group>"; };
+		90E0C95520B403EB00F6567E /* image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +103,10 @@
 		90E0C91E20B3DA3B00F6567E /* HPImageClassifier */ = {
 			isa = PBXGroup;
 			children = (
+				90E0C95520B403EB00F6567E /* image.jpg */,
+				90E0C95120B3F53A00F6567E /* AppleOrangeClassifier.mlmodel */,
 				90E0C91F20B3DA3B00F6567E /* AppDelegate.swift */,
+				90E0C94F20B3EDBE00F6567E /* FruitDetector.swift */,
 				90E0C92120B3DA3B00F6567E /* ViewController.swift */,
 				90E0C92320B3DA3B00F6567E /* Main.storyboard */,
 				90E0C92620B3DA4A00F6567E /* Assets.xcassets */,
@@ -232,6 +241,7 @@
 				90E0C92A20B3DA4A00F6567E /* LaunchScreen.storyboard in Resources */,
 				90E0C92720B3DA4A00F6567E /* Assets.xcassets in Resources */,
 				90E0C92520B3DA3B00F6567E /* Main.storyboard in Resources */,
+				90E0C95620B403EB00F6567E /* image.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +266,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90E0C95220B3F53A00F6567E /* AppleOrangeClassifier.mlmodel in Sources */,
 				90E0C92220B3DA3B00F6567E /* ViewController.swift in Sources */,
+				90E0C95020B3EDBE00F6567E /* FruitDetector.swift in Sources */,
 				90E0C92020B3DA3B00F6567E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
